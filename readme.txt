@@ -15,30 +15,24 @@ Posts in Posts will allow you to grab recent posts based on category, tag or jus
 
 This will then output 4 posts from the category 'Lipsum'.
 
-All posts are outputted using an un-ordered list.
+== Installation ==  
 
-Options are:
+Installation is as simple as adding the 'posts-in-posts' folder to your wp-contents/plugins folder or downloading through WordPress itself. From there you'll need to add the short code to where you want the post to be displayed; here are a list of the options.
 
-* 'type'
-**'category'
-**'tag'
-**'recent'
-**blank - will use 'recent'
+* 'type' : 'category', 'tag', 'recent' or blank will use 'recent'
 
-*'name'
-**the name of a given category or tag in your wordpress taxonmy
-**if left blank then it will resort to outputting nothing unless the type is 'recent' or blank
+* 'name' : the name of a given category or tag in your wordpress taxonmy or if left blank then it will resort to outputting nothing unless the type is 'recent' or blank
 
-*'limit'
-**the number of posts you want to display in a given call
-**if left blank then it resolves to the default of '5'
+* 'limit' : the number of posts you want to display in a given call or if left blank then it resolves to the default of '5'
 
-*'date'
-**use the standard date format for php - http://php.net/manual/en/function.date.php
-**if left blank then it won't display a date
+* 'date' : use the [standard date format for php](http://php.net/manual/en/function.date.php) or if left blank then it won't display a date
 
 == Changelog ==
 
 = 0.5 =
 
 * First available public release.
+
+== Frequently Asked Questions ==
+
+None yet, feel free to ask either on [WordPress](http://wordpress.org/tags/posts-in-posts?forum_id=10#postform), [GitHub](https://github.com/WolfieZero/posts-in-posts/issues/new) or [contacting me](http://wolfiezero.com/contact/)
